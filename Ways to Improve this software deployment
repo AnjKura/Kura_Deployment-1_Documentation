@@ -1,0 +1,7 @@
+Ways to improve this deployment
+   Create a script to launch EC2 as well as install Jenkins on the EC2
+         Why: creating the script will alow for increased automization, increased time efficiency, and reduced possibility for error.
+  Deploy the url-shortener using containerization. Containerization deployment is depicted in the idealized Jenkins pipeline in this repo.
+         Why: eliminate configuration drift, reduced latency, improved security, increased portability, increased agility
+  Build a capacity for monitoring the app
+  Build a capacity for error handling
