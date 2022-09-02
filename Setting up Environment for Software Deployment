@@ -1,0 +1,30 @@
+Install Jenkins on an EC2:
+   ● First create an Ubuntu EC2 from AWS
+   ● The EC2 will need port 80, 8080, and 22 open
+   ● Once you’ve created the EC2,  ssh into the EC2 from the Ubuntu terminal and log into the EC2.
+   ● Then install Jenkins using the command line.
+*****My observation*****
+   Jenkins required me to install Java to run properly because the Jenkins application is based in Java.
+Install Virtual Environment:
+   ● Remote into the EC2 and install the two packages via the
+apt command:
+    ○ python3-pip
+    ○ python3.10-venv
+Connect GitHub to Jenkins Server:
+  ● First Fork the Deployment repo:
+https://github.com/kura-labs-org/kuralabs_deployment_1.
+git
+ ● Next, create an access token from GitHub:
+   ○ Navigate to your GitHub settings, select developer
+settings
+ ○ Select personal access token and create a new
+token.
+****My observation****
+      I had to save the personal access token key to another document because Github displayed a warning that I would not be able to see the access key again!
+Create a multibranch build:
+● Log back into Jenkins and select “New item”
+● Select multibranch pipeline
+● Add a Branch source by selecting Add source and select
+GitHub
+*****My observation******
+      A multibranch pipeline allows for building multiple branches from a repository. It also allows multiple deployments to multiple environments if needed.
