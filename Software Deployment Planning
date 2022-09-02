@@ -1,0 +1,38 @@
+Define project goals and responsibilities 
+   The goal of this software deployment is to use Jenkins as an automation tool to deploy a url-shortener web app on AWS Elastic Beanstalk. Using Jenkins for this deployment allows for continuous integration and continuous deployment.
+   Team Responsibilities
+       IT Developer: Tyrone Sanderson
+       IT Administrator: Tyrone Sanderson
+       Software Deployment Manager: Anjuli Panizzi
+       IT  operations: Anjuli Panizzi and Kura Labs classmates
+          will receive deployment updates
+          will be available to answer technical questions 
+   Recipients of deployment items
+      Userbase of url shortner: approximately 1 million people
+ 
+Tech Requirements
+    Jenkins
+    Java
+    Ubuntu
+    AWS EC2
+    AWS Elastic Beanstalk
+    Application File needed to execute url-shortener
+    Internet Access
+    
+Set project schedules
+   This software deployment will start on 8/28/2022 and complete on 8/31/2022
+
+Perform multifaceted deployments
+
+   IT ADmins must be familiar with the necessary hardware, software, and cloud providers. 
+Testing and managing load
+     IT admins must also plan for deployment testing and monitoring to ensure that client and server codes work correctly.
+
+Customization and monitoring
+
+  Software monitoring involves redundancy avoidance, automation, and patching tools can provide a clear visual breakdown for administrators. The ecosystem must be continuously checked for security vulnerabilities.
+
+Enterprise concerns
+   The Web App must be compatible with Elastic Beanstalk
+
+This plan is adapted from https://www.techtarget.com/searchitoperations/tip/Write-a-software-deployment-plan-under-these-guidelines
